@@ -1,0 +1,45 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Exercise 01 (Chrome)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/EXERCISE01/main.dart",
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Exercise 01 (Linux)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/EXERCISE01/main.dart",
+        },
+        {
+            "name": "Exercise 02 (Chrome)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/EXERCISE02/main.dart",
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Exercise 02 (Linux)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/EXERCISE02/main.dart"
+        },
+        {
+            "name": "Exercise 03",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/EXERCISE03/main.dart",
+            "deviceId": "chrome"
+        },
+        {
+            "name": "Exercise 04",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/EXERCISE04/main.dart",
+            "deviceId": "chrome"
+        }
+    ]
+}
