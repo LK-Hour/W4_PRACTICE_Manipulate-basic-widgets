@@ -29,25 +29,33 @@
 This project contains multiple exercises focusing on different aspects of Flutter widget manipulation:
 
 ### 🎯 Exercise 01 (`lib/EXERCISE01/main.dart`)
-- Basic Flutter application setup
-- Material App implementation
-- Simple widget structure
+Implementation of a basic Flutter application focusing on:
+- Basic MaterialApp and Scaffold structure
+- Simple text display and centering
+- Understanding widget tree basics
 
 ### 🎨 Exercise 02 (`lib/EXERCISE02/main.dart`)
-- Container widget manipulation
-- Working with margins and padding
-- Custom styling with BoxDecoration
-- Text widget customization
+Working with Container and styling:
+- Container widget with custom margins (`EdgeInsets.all(50)`)
+- Nested containers with padding (`EdgeInsets.all(40)`)
+- Custom styling using BoxDecoration
+- Color manipulation using `Colors.blue` shades
+- BorderRadius for rounded corners
+- Text styling and positioning
 
 ### 🛠️ Exercise 03 (`lib/EXERCISE03/main.dart`)
-- Widget composition practice
-- Layout implementation
-- State management basics
+Exploring layout and positioning:
+- Advanced widget nesting
+- Custom layout implementations
+- Working with multiple styling properties
+- Widget composition techniques
 
 ### 🚀 Exercise 04 (`lib/EXERCISE04/main.dart`)
-- Advanced widget combinations
-- Complex UI layouts
-- Flutter Material Design principles
+Complex widget manipulation:
+- Advanced Material Design implementations
+- Multiple widget combinations
+- Layout optimization
+- State management implementation
 
 ## 🏃‍♂️ How to Run
 
@@ -91,17 +99,38 @@ This project aims to demonstrate understanding and practical implementation of:
 - State management
 - Material Design implementation
 
-## 📚 Repository
+## 🎓 Assignment Details
 
-This repository is part of the Flutter Development course assignments at CADT (Cambodia Academy of Digital Technology).
+This project is part of Week 4 assignments focusing on basic widget manipulation in Flutter. The exercises are designed to demonstrate understanding of:
 
-## 📖 Resources
+1. 📱 Basic Flutter Application Structure
+2. 🎨 Widget Styling and Customization
+3. 📐 Layout Management
+4. 🛠️ Container and Decoration Properties
+5. 🎯 Proper Widget Tree Organization
+
+## � Resources
 
 <div align="center">
-  <img src="https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg" alt="Flutter Framework" width="400"/>
+  <img src="https://storage.googleapis.com/cms-storage-bucket/847ae81f5430402216fd.svg" alt="Flutter Framework" width="400"/>
 </div>
 
-For additional Flutter development resources:
+### Official Documentation
 - [Flutter Documentation](https://docs.flutter.dev/)
 - [Widget Catalog](https://docs.flutter.dev/development/ui/widgets)
 - [Material Design Guidelines](https://m3.material.io/)
+
+### Learning Resources
+- [Flutter Codelabs](https://docs.flutter.dev/codelabs)
+- [Flutter Cookbook](https://docs.flutter.dev/cookbook)
+- [Flutter Widget of the Week](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/flutter/website/main/src/_assets/image/flutter-lockup.png" alt="Flutter" width="300"/>
+  <p>
+    <img src="https://raw.githubusercontent.com/Codelessly/FlutterLoadingGIFs/master/packages/cupertino_activity_indicator_selective.gif" alt="Flutter Activity Indicator" width="50"/>
+  </p>
+</div>
+
+## 🏛️ Institution
+Cambodia Academy of Digital Technology (CADT)
