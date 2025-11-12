@@ -8,9 +8,9 @@ void main() {
         color: Colors.grey[300],
         child: Column(
           children: [
-            MyWidget(text: "OOP", color: Colors.blue[100]),
-            MyWidget(text: "DART", color: Colors.blue[300]),
-            MyWidget(text: "FLUTTER", color: Colors.blue[600]),
+            MyWidget(text: "OOP", color: Colors.blue[100]!),
+            MyWidget(text: "DART", color: Colors.blue[300]!),
+            MyWidget(text: "damnnn", color: Colors.blue[600]!),
           ],
         ),
       ),
@@ -20,7 +20,7 @@ void main() {
 
 class MyWidget extends StatelessWidget {
   final String text;
-  final Color? color;
+  final Color color;
   const MyWidget({super.key, required this.text, this.color = Colors.blue});
 
   @override

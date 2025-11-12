@@ -7,7 +7,7 @@ void main() {
         children: [
           CustomCard(text: "OOP", color: Colors.blue[100]),
           CustomCard(text: "DART", color: Colors.blue[300]),
-          CustomCard(text: "FLUTTER", color: Colors.blue[600]),
+          CustomCard.blue(text: "FLUTTER"),
         ],
       ),
     ),
@@ -17,7 +17,21 @@ void main() {
 class CustomCard extends StatelessWidget {
   final String text;
   final Color? color;
-  const CustomCard({super.key, required this.text, this.color = Colors.blue});
+  final Gradient? gradient;
+  const CustomCard({
+    super.key,
+    required this.text,
+    this.color = Colors.blue,
+    this.gradient,
+  });
+
+  const CustomCard.blue({super.key, required this.text})
+    : gradient = const LinearGradient(
+        colors: [Colors.blue, Colors.lightBlue],
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+      ),
+      color = null;
 
   @override
   Widget build(BuildContext context) {
